@@ -4,7 +4,7 @@ body {
 }
 
 #root {
-  background: linear-gradient(to right, rgba(109, 56, 255, 1), rgba(252, 29, 40, 0.5));
+  background: linear-gradient(to right, #f800f4, #ff8801);
   height: 100vh; 
   display: flex; 
   align-items: center; 
@@ -35,7 +35,7 @@ body {
   font-weight: bolder;
   font-size: 3vw;
   letter-spacing: 10px;
-  background: rgba(252, 29, 40, 0.5);
+  background: #ff8801;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: none;
@@ -44,10 +44,16 @@ body {
   left: 2px;
 }
 
+.loading {
+  background: linear-gradient(to right, #f800f4, #ff8801);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #text {
   text-align: center;
   font-size: 25px;
-  background: linear-gradient(to right, rgba(252, 29, 40, 0.5), rgba(109, 56, 255, 1));
+  background: linear-gradient(to right, #f800f4, #ff8801);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -67,17 +73,20 @@ body {
 }
 
 #new-quote {
-  background: rgba(109, 56, 255, 1);
+  text-decoration: none;
+  background: #f800f4;
   padding: 15px;
   outline: none;
   border: none;
   color: white;
-  border-radius: 5px;
+  border-radius: 25px;
+  font-family: 'Raleway';
+  font-weight: bolder;
   transition: all 0.2s ease-in-out;
 }
 
 #new-quote:hover {
-  background: rgb(68, 0, 255);
+  background: #e002dd;
   cursor: pointer;
 }
 
@@ -87,13 +96,14 @@ body {
   outline: none;
   border: none;
   color: white;
-  border-radius: 5px;
+  border-radius: 25px;
+  font-weight: bold;
   transition: all 0.2s ease-in-out;
-  background: rgb(29, 161, 242);
+  background: #ff8801;
   transition: all 0.2s ease-in-out;
 }
 
 #tweet-quote:hover{
-  background: rgb(0, 147, 238);
+  background: #f18100;
   cursor: pointer;
 }

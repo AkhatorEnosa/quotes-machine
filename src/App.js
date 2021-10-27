@@ -38,8 +38,8 @@ class App extends React.Component{
           <p id="text"><span class="quote-mark">"</span>{quoteText}</p>
           <p id="author">{quoteAuthor}</p>
           <div id="link-and-btn">
-            <a id="tweet-quote" href={"https://twitter.com/intent/tweet?text=" + quoteText + quoteAuthor} target="_blank" rel="noreferrer">Tweet</a>
-            <button id="new-quote" onClick={this.newQuote}>New Quote</button>
+            <a id="tweet-quote" href={"https://twitter.com/intent/tweet?text=" + quoteText + quoteAuthor} target="_blank" rel="noreferrer">Tweet Quote</a>
+            <a id="new-quote" href="#" onClick={this.newQuote}>New Quote</a>
           </div>
         </div>
       )
