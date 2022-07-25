@@ -4,7 +4,8 @@ body {
 }
 
 #root {
-  background: linear-gradient(to right, #f800f4, #ff8801);
+/*   background: linear-gradient(to right, #f800f4, #ff8801); */
+  background: white;
   height: 100vh; 
   display: flex; 
   align-items: center; 
